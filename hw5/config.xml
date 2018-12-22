@@ -1,0 +1,71 @@
+<Entrance>
+    <IDs>
+        <ID type="card">1</ID>
+        <ID type="card">2</ID>
+        <ID type="card">5</ID>
+        <ID type="face">2</ID>
+        <ID type="face">3</ID>
+        <ID type="face">4</ID>
+    </IDs>
+    <Persons>
+        <Person type="student">
+            <Name>A</Name>
+            <Card>2</Card>
+        </Person>
+        <Person type="student">
+            <Name>B</Name>
+            <Card>3</Card>
+        </Person>
+        <Person type="teacher">
+            <Name>C</Name>
+            <Card>5</Card>
+            <Face>1</Face>
+        </Person>
+        <Person type="teacher">
+            <Name>D</Name>
+            <Card>6</Card>
+            <Face>2</Face>
+        </Person>
+        <Person type="student">
+            <Name>E</Name>
+            <Card>4</Card>
+        </Person>
+    </Persons>
+    <Logs>
+        <Log>
+            <Idx>0</Idx>
+            <Time>8:00</Time>
+            <Card>true</Card>
+            <Face>true</Face>
+            <Direction>in</Direction>
+        </Log>
+        <Log>
+            <Idx>1</Idx>
+            <Time>8:05</Time>
+            <Card>false</Card>
+            <Face>true</Face>
+            <Direction>out</Direction>
+        </Log>
+        <Log>
+            <Idx>2</Idx>
+            <Time>8:05</Time>
+            <Card>true</Card>
+            <Face>false</Face>
+            <Direction>out</Direction>
+        </Log>
+        <Log>
+            <Idx>3</Idx>
+            <Time>8:10</Time>
+            <Card>false</Card>
+            <Face>true</Face>
+            <Direction>in</Direction>
+        </Log>
+        <Log>
+            <Idx>4</Idx>
+            <Time>8:10</Time>
+            <Card>false</Card>
+            <Face>true</Face>
+            <Direction>in</Direction>
+        </Log>
+    </Logs>
+</Entrance>
